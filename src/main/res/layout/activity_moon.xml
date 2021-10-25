@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#141332"
+    android:orientation = "horizontal"
+    android:gravity = "center_horizontal"
+    android:padding = "40dp">
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D0D21"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="Starlight And Bright Moon     Starlight And Bright Moon     Starlight And Bright Moon"
+        android:textColor="#FAF53E"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_3"
+        android:gravity="center"
+        android:text="@string/the_moon"
+        android:textColor="#ffffff"
+        android:textSize="150sp"
+        android:layout_marginTop = "50dp"
+        android:textStyle = "bold"
+        android:onClick = "showToast2_moon"/>
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_4"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/the_ssun"
+        android:background = "@drawable/btn2click"
+        />
+</RelativeLayout>

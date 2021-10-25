@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloSjtu</string>
+    <string name="the_sun">\u2742</string>
+    <string name="the_moon">\u262a</string>
+    <string name="the_ssun">\u2600</string>
+    <string name="the_smoon">\u263e</string>
+</resources>
